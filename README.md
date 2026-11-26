@@ -20,7 +20,7 @@ personal reverse-engineering project, not a vendor product.
 
 ## Download
 
-Build 094 (installed and working on the owner's unit): see the
+Release v1.0.0 (installed and working on the owner's unit): see the
 [Releases page](https://github.com/yety-ua/qd513-qd515-carplay-screen-audi-a4-b9/releases).
 It has two files, `GEMINI_PACK.BIN` and `ISPBOOOT.BIN`, with SHA-256 sums. Check the sums before
 using them. The images were built from the stock `v3.0.2` files whose hashes are listed in

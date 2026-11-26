@@ -24,25 +24,28 @@ Screenshots come from an emulator that runs the real vendor Qt libraries and Lau
 Fonts, layout and colours are the packaged assets; the touchscreen and PWM backend are absent in
 the emulator.
 
-| Stock home | Modified home (Ukrainian locale) |
+| Stock home | Modified home |
 | --- | --- |
-| ![stock](screenshots/01-home-stock.png) | ![modified](screenshots/02-home-redesigned-uk.png) |
+| ![stock](screenshots/01-home-stock.png) | ![modified](screenshots/02-home-redesigned.png) |
 
 Pressed state of every tile (two static states only, like stock; no animation):
 
 ![pressed tiles](screenshots/03-tiles-pressed.png)
 
-Settings pages, Ukrainian and English:
+Settings pages (Setup, Display, Wi-Fi, Audio):
 
-![settings uk](screenshots/04-settings-pages-uk.png)
-![settings en](screenshots/05-settings-pages-en.png)
+![settings](screenshots/04-settings-pages-en.png)
+
+Ukrainian is added as a full UI language (shown once here, the System page with the language entry):
+
+![ukrainian](screenshots/06-ukrainian-ui.png)
 
 ## Automatic brightness (new feature)
 
 The stock screen has only manual Day and Night dimmer sliders. This firmware adds a separate
 **Settings → Display → Automatic brightness** submenu. The stock sliders stay untouched.
 
-![auto brightness](screenshots/06-auto-brightness.png)
+![auto brightness](screenshots/05-auto-brightness.png)
 
 How it works:
 

@@ -10,12 +10,21 @@ personal reverse-engineering project, not a vendor product.
 
 > **Warning: read before doing anything with this.**
 > - Flashing a modified firmware can brick the screen. Nothing here is guaranteed safe.
-> - I do not publish the vendor firmware. You must bring your own unmodified `v3.0.2` package
->   and keep a backup of it and a recovery route before writing anything.
+> - The release contains **modified vendor firmware images**. They are derived from the vendor's
+>   `v3.0.2` package, which is not mine; I do not own or license the vendor code. Keep your own
+>   unmodified firmware and a recovery route before writing anything.
 > - Only the owner's unit was ever flashed. Other boards, MCU versions and firmware branches are
 >   **not** verified. Do not assume compatibility.
 > - Some items below are verified only on the host, on ARM/Qt test harnesses or in the emulator.
 >   The status table says which. "Not verified on hardware" means exactly that.
+
+## Download
+
+Build 094 (installed and working on the owner's unit): see the
+[Releases page](https://github.com/yety-ua/qd513-qd515-carplay-screen-audi-a4-b9/releases).
+It has two files, `GEMINI_PACK.BIN` and `ISPBOOOT.BIN`, with SHA-256 sums. Check the sums before
+using them. The images were built from the stock `v3.0.2` files whose hashes are listed in
+`build-manifest.json`; use them only on the same hardware and firmware family.
 
 ## What it looks like
 
@@ -115,5 +124,7 @@ If you reuse anything, keep the original licence texts and attribution.
 
 Original code and documents in this repository are released under the [MIT License](LICENSE).
 Third-party parts (e.g. GeminiTop's `cpmt.c`) keep their own MIT notices.
-Vendor binaries and firmware images are not included and remain the property of their owners.
+The firmware images in the Releases page are modified copies of the vendor firmware and remain the
+property of their owners; they are shared for interoperability and research, and will be removed on request
+of the rights holder.
 Provided as is, without warranty. You alone are responsible for what you flash.

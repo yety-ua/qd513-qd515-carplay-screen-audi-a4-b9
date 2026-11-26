@@ -91,7 +91,7 @@ owner's statement; the detailed PWM, headlight-input and cold-restart logs are n
 | Home screen | Redesigned tiles: per-service accent colour on the bottom strip, white side lines, rebuilt car tile (Audi), centred grid. Two states only: normal and pressed (top and bottom edge gradients plus a colour haze). | Emulator and installed build |
 | Settings pages | Page header stripe, breadcrumb titles ("Settings · Display"), row gradient and press feedback, scrolling and row selection fixes. | Row gradient and scrolling accepted physically; rest emulator |
 | CarPlay | 60 fps request, 512 KiB encoded-video buffers and a guarded two-finger touch shim. Code derived from GeminiTop (MIT), see credits. | Synthetic ARM tests only; physical test still pending |
-| OEM tile | The CarPlay "OEM" tile is relabelled Audi MMI and uses the Audi rings artwork. Tapping it opens the external-screen Home (direct return to the factory MMI source was tried and is closed). After forgetting and re-pairing the iPhone the rings appear. | Physically accepted on build 094 |
+| OEM tile | The CarPlay "OEM" tile is relabelled Audi MMI and uses the Audi rings artwork. Tapping it opens the external-screen Home (direct return to the factory MMI source was tried and is closed). After forgetting and re-pairing the iPhone the rings appear. | Physically accepted on the owner's unit |
 | Clock | iPhone-sourced offline clock for the solar schedule (see above). | Host/ARM tests; works on the device per the owner |
 
 Unchanged: Wi-Fi/CPU settings, knob/input profile XML, Android Auto and HiCar modules, partition
